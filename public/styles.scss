@@ -1,0 +1,34 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+$primary: #0D59AF;
+
+$theme-colors: (
+    "primary":$primary
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+input {
+    display: none;
+};
+
+label img {
+    width: 30%;
+}
+
+img {
+    border: solid 3px $primary;
+    border-radius: 10%;
+}
+
+label {
+    font-family: sans-serif;
+    color: $primary
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+}
