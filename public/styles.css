@@ -11253,7 +11253,7 @@ label img {
 
 img {
   border: solid 3px #0D59AF;
-  border-radius: 10%;
+  border-radius: 5%;
 }
 
 label {
@@ -11263,5 +11263,5 @@ label {
 
 .images {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }/*# sourceMappingURL=styles.css.map */
